@@ -1,0 +1,13 @@
+name: API Pedidos PIPELINE MAIN
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Exibir hello world
+        run: acho "Olá, eu sou uma PIPELINE do GitHub Actions"
