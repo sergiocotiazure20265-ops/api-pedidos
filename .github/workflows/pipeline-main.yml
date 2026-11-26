@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Exibir hello world
-        run: acho "Olá, eu sou uma PIPELINE do GitHub Actions"
+        run: echo "Olá, eu sou uma PIPELINE do GitHub Actions"
